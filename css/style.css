@@ -4,6 +4,11 @@ body {
 
 section {
   height: 650px;
+  padding-top: 80px;
+}
+
+nav button {
+  background-color: rgba(255, 186, 51, 1);
 }
 
 .jumbotron {
@@ -12,4 +17,18 @@ section {
   background-position-x: center;
   background-position-y: 60px;
   background-attachment: fixed;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+}
+
+.jumbotron button.started {
+  background-color: rgba(255, 186, 51, 1);
 }
