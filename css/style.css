@@ -1,3 +1,15 @@
+body {
+  background-color: silver;
+}
+
+section {
+  height: 650px;
+}
+
 .jumbotron {
-  background-image: url("../img/jumbotron.jpg");
+  background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url("../img/general/jumbotron.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 60px;
+  background-attachment: fixed;
 }
