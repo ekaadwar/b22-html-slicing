@@ -36,6 +36,7 @@ nav button {
 #advantages .report {
   height: 200px;
   margin-top: -180px;
+  width: 100%;
 }
 
 .box-advent {
@@ -44,9 +45,14 @@ nav button {
   width: 55px;
   background-color: rgba(255, 186, 51, 1);
   text-align: center;
-  margin-left: 150px;
+  margin-left: 140px;
 }
 
 .box-advent i {
   align-self: center;
+}
+
+.report h1 {
+  font-weight: bold;
+  font-size: 20px;
 }
