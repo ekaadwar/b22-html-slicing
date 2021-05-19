@@ -1,0 +1,13 @@
+Hari ke 2
+Selasa, 18 Mei 2021
+problem 1 : Kesulitas saat mengatur posisi ikon staff, store, customer pada kotak yang melayang di halaman home.
+solui 1 : pake margin left secara manual.
+
+problem 2 : membuat posisi objek di dalam div ke tengah secara vertikal
+solusi 2 : gunakan display Grid pada parent objek tersebut, kemudian gunakan properti css "align-self" pada objek tersebut untuk mengatur posisi nya secara vertikal
+
+problem 3 : tidak menemukan list style type berbentuk ceklis
+solusi 3 : -
+
+Problem 4 : gambar "team work" dan list pada section advantages tidak bisa ke ketengahkan secara vertikal
+solusi 4 : -

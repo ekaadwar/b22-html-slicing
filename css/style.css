@@ -1,10 +1,9 @@
-body {
-  background-color: silver;
+html {
+  font-family: "Rubik", sans-serif;
 }
 
 section {
   height: 650px;
-  padding-top: 80px;
 }
 
 nav button {
@@ -12,6 +11,7 @@ nav button {
 }
 
 .jumbotron {
+  padding-top: 80px;
   background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url("../img/general/jumbotron.jpg");
   background-size: cover;
   background-position-x: center;
@@ -35,7 +35,7 @@ nav button {
 
 #advantages .report {
   height: 200px;
-  margin-top: -180px;
+  margin-top: -100px;
   width: 100%;
 }
 
