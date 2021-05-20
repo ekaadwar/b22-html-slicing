@@ -87,6 +87,27 @@ nav button {
   flex: 1;
 }
 
-/* .favo-sect .list div {
-  line-height: 50px;
-} */
+p.sub-judul {
+  width: 500px;
+}
+
+.test-bar {
+  width: 1600px;
+}
+
+.test-card {
+  width: 400px;
+  height: 230px;
+}
+
+.test-card .head p::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f005";
+  color: yellow;
+}
+
+.arr-left::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f060";
+  /* color: rgb(58, 39, 0); */
+}
