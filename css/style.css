@@ -60,6 +60,7 @@ nav button {
 
 .favo-sect {
   height: 760px;
+  padding-bottom: 30px;
 }
 
 .favo-img {
@@ -89,5 +90,3 @@ nav button {
 /* .favo-sect .list div {
   line-height: 50px;
 } */
-
-
