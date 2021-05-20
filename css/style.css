@@ -2,7 +2,8 @@ html {
   font-family: "Rubik", sans-serif;
 }
 
-section {
+section.jumbotron,
+section.adventages {
   height: 650px;
 }
 
@@ -56,3 +57,37 @@ nav button {
   font-weight: bold;
   font-size: 20px;
 }
+
+.favo-sect {
+  height: 760px;
+}
+
+.favo-img {
+  height: 150px;
+  width: 150px;
+}
+
+.favo-sect .picture,
+.favo-sect .list,
+.favo-sect .cost {
+  display: flex;
+  justify-content: center;
+}
+
+.favo-sect .picture {
+  flex: 1;
+}
+
+.favo-sect .list {
+  flex: 1;
+}
+
+.favo-sect .list {
+  flex: 1;
+}
+
+/* .favo-sect .list div {
+  line-height: 50px;
+} */
+
+
