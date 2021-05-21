@@ -115,3 +115,12 @@ p.sub-judul {
 .foot-info div {
   padding-bottom: 10px;
 }
+
+/* login page */
+section.auth {
+  height: 1100px;
+  background-image: url("../img/general/login.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 50%;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/6c4fda98f4.js" crossorigin="anonymous"></script>
+
+    <title>Login</title>
+  </head>
+
+  <body>
+    <section class="auth">
+      <div class="container h-full mx-auto">
+        <div class="flex justify-end">
+          <div class="w-1/2 bg-white">
+            <div class="p-16 space-y-7">
+              <div class="flex justify-between mb-20">
+                <div class="flex items-center">
+                  <a href="index.html"><img class="inline" src="img/logo/coffee.png" alt="Coffe Shop" /></a>
+                  <a class="text-l font-bold ml-3" href="index.html">Coffee Shop</a>
+                </div>
+                <a href="signUp.html"><button class="bg-yellow-500 hover:bg-yellow-300 px-5 py-2 rounded-full font-bold">Sign Up</button></a>
+              </div>
+              <h3 class="text-yellow-800 text-2xl font-bold text-center">Login</h3>
+              <form class="space-y-7">
+                <div>
+                  <h4 class="bold">Email Address :</h4>
+                  <input class="px-5 py-3 bg-white border-2 border-gray-300 rounded-xl w-full" type="email" name="email" placeholder="Enter your email address" />
+                </div>
+                <div>
+                  <h4 class="bold">Password:</h4>
+                  <input class="px-5 py-3 bg-white border-2 border-gray-300 rounded-xl w-full" type="password" name="password" placeholder="Enter your password" />
+                </div>
+
+                <a class="text-yellow-800 font-bold" href="">Forgot password?</a>
+                <div>
+                  <button class="bg-yellow-500 hover:bg-yellow-300 px-5 py-2 rounded-xl font-bold w-full" type="submit">Login</button>
+                </div>
+                <div><button class="bg-white hover:bg-gray-300 border-2 border-gray-300 px-5 py-2 rounded-xl font-bold w-full">Login with google</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="relative bg-gray-200 py-10">
+      <div class="container mx-auto">
+        <div class="flex bg-white py-16 px-24 rounded-2xl justify-between items-center -mt-40 mb-20">
+          <div>
+            <h3 class="font-bold text-3xl w-72 mb-5">Get your member card now!</h3>
+            <p>Let's join with our member and enjoy the deals.</p>
+          </div>
+          <div>
+            <button class="bg-yellow-500 hover:bg-yellow-300 text-xl mt-10 px-10 py-2 text-yellow-900 font-bold rounded-xl">See Promo</button>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="flex-1 space-y-7">
+            <div class="flex items-center">
+              <img src="img/logo/coffee.png" alt="Coffee Shop" />
+              <h4 class="text-l font-bold ml-3">Coffee Shop</h4>
+            </div>
+            <p class="w-72 leading-8">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+            <div class="flex space-x-3">
+              <div class="flex justify-center items-center h-8 w-8 bg-yellow-500 rounded-full"><i class="text-yellow-800 fab fa-facebook-f"></i></div>
+              <div class="flex justify-center items-center h-8 w-8 bg-yellow-500 rounded-full"><i class="text-yellow-800 fab fa-twitter"></i></div>
+              <div class="flex justify-center items-center h-8 w-8 bg-yellow-500 rounded-full"><i class="text-yellow-800 fab fa-instagram"></i></div>
+            </div>
+          </div>
+          <div class="flex-1 flex justify-end">
+            <div class="w-2/3">
+              <div class="foot-info grid grid-cols-2">
+                <div class="text-xl font-bold">Product</div>
+                <div class="text-xl font-bold">Engage</div>
+                <div>Download</div>
+                <div>Coffe Shop?</div>
+                <div>Pricing</div>
+                <div>FAQ</div>
+                <div>Location</div>
+                <div>About Us</div>
+                <div>Countries</div>
+                <div>Privacy Policy</div>
+                <div>Blog</div>
+                <div>Term of Service</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+  </body>
+</html>
