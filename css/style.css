@@ -111,3 +111,7 @@ p.sub-judul {
   content: "\f060";
   /* color: rgb(58, 39, 0); */
 }
+
+.foot-info div {
+  padding-bottom: 10px;
+}
