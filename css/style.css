@@ -2,6 +2,10 @@ html {
   font-family: "Rubik", sans-serif;
 }
 
+.container {
+  width: 1100px;
+}
+
 section.jumbotron,
 section.adventages {
   height: 650px;
@@ -123,4 +127,13 @@ section.auth {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 50%;
+}
+
+section.forgot {
+  height: 1100px;
+  background-image: url("../img/general/forgot.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
 }

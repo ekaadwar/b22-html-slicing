@@ -12,58 +12,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet" />
 
+    <!-- font poppins -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
     <script src="https://kit.fontawesome.com/6c4fda98f4.js" crossorigin="anonymous"></script>
 
-    <title>Login</title>
+    <title>Forgot Pass</title>
   </head>
 
   <body>
-    <section class="auth">
-      <div class="container h-full mx-auto">
-        <div class="flex justify-end">
-          <div class="w-1/2 bg-white">
-            <div class="p-16 space-y-7">
-              <div class="flex justify-between mb-20">
-                <div class="flex items-center">
-                  <a href="index.html"><img class="inline" src="img/logo/coffee.png" alt="Coffe Shop" /></a>
-                  <a class="text-l font-bold ml-3" href="index.html">Coffee Shop</a>
-                </div>
-                <a href="signUp.html"><button class="bg-yellow-500 hover:bg-yellow-300 px-5 py-2 rounded-full font-bold">Sign Up</button></a>
-              </div>
-              <h3 class="text-yellow-800 text-2xl font-bold text-center">Login</h3>
-              <form class="space-y-7">
-                <div>
-                  <h4 class="bold">Email Address :</h4>
-                  <input class="px-5 py-3 bg-white border-2 border-gray-300 rounded-xl w-full" type="email" name="email" placeholder="Enter your email address" />
-                </div>
-                <div>
-                  <h4 class="bold">Password:</h4>
-                  <input class="px-5 py-3 bg-white border-2 border-gray-300 rounded-xl w-full" type="password" name="password" placeholder="Enter your password" />
-                </div>
-
-                <a class="inline-block text-yellow-800 font-bold" href="forgot.html">Forgot password?</a>
-
-                <button class="block bg-yellow-500 hover:bg-yellow-300 px-5 py-2 rounded-xl font-bold w-full" type="submit">Login</button>
-
-                <div><button class="block bg-white hover:bg-gray-300 border-2 border-gray-300 px-5 py-2 rounded-xl font-bold w-full">Login with google</button></div>
-              </form>
+    <section class="forgot text-white">
+      <div class="container mx-auto">
+        <div>
+          <h1 class="text-6xl font-bold">Forgot your password?</h1>
+          <p class="font-bold">Don't worry, we got your back!</p>
+          <form>
+            <div class="flex">
+              <input class="flex-1 py-5 rounded-2xl" type="email" name="email" placeholder="Enter your email address to get link" />
+              <input class="flex-3 py-5 rounded-2xl bg-yellow-500 text-yellow-900 font-bold" type="submit" name="submit" value="Send" />
             </div>
-          </div>
+          </form>
+          <p>Click here if you didn't receive any link in 2 minutes</p>
+          <button>Resend Link</button>
+          <p>01:54</p>
         </div>
       </div>
     </section>
     <!-- footer -->
     <footer class="relative bg-gray-200 py-10">
       <div class="container mx-auto">
-        <div class="flex bg-white py-16 px-24 rounded-2xl justify-between items-center -mt-40 mb-20">
-          <div>
-            <h3 class="font-bold text-3xl w-72 mb-5">Get your member card now!</h3>
-            <p>Let's join with our member and enjoy the deals.</p>
-          </div>
-          <div>
-            <button class="bg-yellow-500 hover:bg-yellow-300 text-xl mt-10 px-10 py-2 text-yellow-900 font-bold rounded-xl">Create New</button>
-          </div>
-        </div>
         <div class="flex">
           <div class="flex-1 space-y-7">
             <div class="flex items-center">
