@@ -19,23 +19,39 @@
     <script src="https://kit.fontawesome.com/6c4fda98f4.js" crossorigin="anonymous"></script>
 
     <title>Forgot Pass</title>
+
+    <style>
+      .forgot .email {
+        flex-grow: 3;
+      }
+
+      .forgot .send {
+        flex-grow: 1;
+      }
+    </style>
   </head>
 
   <body>
-    <section class="forgot text-white">
+    <section class="forgot text-white text-xl">
       <div class="container mx-auto">
-        <div>
-          <h1 class="text-6xl font-bold">Forgot your password?</h1>
-          <p class="font-bold">Don't worry, we got your back!</p>
-          <form>
-            <div class="flex">
-              <input class="flex-1 py-5 rounded-2xl" type="email" name="email" placeholder="Enter your email address to get link" />
-              <input class="flex-3 py-5 rounded-2xl bg-yellow-500 text-yellow-900 font-bold" type="submit" name="submit" value="Send" />
-            </div>
-          </form>
-          <p>Click here if you didn't receive any link in 2 minutes</p>
-          <button>Resend Link</button>
-          <p>01:54</p>
+        <div class="py-52 space-y-28 text-center">
+          <div>
+            <h1 class="text-6xl font-bold mb-3">Forgot your password?</h1>
+            <p class="font-bold">Don't worry, we got your back!</p>
+          </div>
+          <div>
+            <form>
+              <div class="flex">
+                <input class="email py-7 pl-8 rounded-2xl mr-7" type="email" name="email" placeholder="Enter your email address to get link" />
+                <input class="send py-7 rounded-2xl bg-yellow-500 text-yellow-900 font-bold" type="submit" name="submit" value="Send" />
+              </div>
+            </form>
+          </div>
+          <div class="space-y-5">
+            <p class="font-bold text-center w-96 mx-auto">Click here if you didn't receive any link in 2 minutes</p>
+            <button class="w-80 bg-yellow-900 text-white py-7 rounded-2xl">Resend Link</button>
+            <p>01:54</p>
+          </div>
         </div>
       </div>
     </section>
