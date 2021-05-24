@@ -137,3 +137,44 @@ section.forgot {
   background-size: cover;
   font-family: "Poppins", sans-serif;
 }
+
+.product .container {
+  width: 1400px;
+}
+
+.product .content {
+  height: 900px;
+}
+
+.product .side {
+  flex: 1;
+}
+
+.product .main {
+  flex: 2;
+}
+
+.product .card {
+  height: 450px;
+}
+
+.product .card-acc-1 {
+  height: 400px;
+}
+
+.product .main ul li {
+  padding: 0 10px;
+}
+
+.product .main ul li:hover {
+  border-bottom: 2px solid rgb(106, 64, 40);
+}
+
+.product .main a:hover {
+  font-weight: bold;
+  color: rgb(106, 64, 40);
+}
+
+.product .main .item div.flex {
+  margin-top: 30px;
+}
