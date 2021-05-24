@@ -178,3 +178,23 @@ section.forgot {
 .product .main .item div.flex {
   margin-top: 30px;
 }
+
+section.cart {
+  height: 800px;
+  background-image: url("../img/general/cart.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.cart .grid .item {
+  margin-bottom: 5px;
+}
+
+section.cart .cart-body {
+  height: 500px;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px #000000;
+}
