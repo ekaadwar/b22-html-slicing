@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/6c4fda98f4.js" crossorigin="anonymous"></script>
+
+    <title>Home</title>
+
+    <style>
+      .product .container {
+        width: 1400px;
+      }
+
+      .product .content {
+        height: 900px;
+      }
+
+      .product .side {
+        flex: 1;
+      }
+
+      .product .main {
+        flex: 2;
+      }
+
+      .product .card {
+        height: 450px;
+      }
+
+      .product .card-acc-1 {
+        height: 400px;
+      }
+
+      .product .main ul li {
+        padding: 0 10px;
+      }
+
+      .product .main ul li:hover {
+        border-bottom: 2px solid rgb(106, 64, 40);
+      }
+
+      .product .main a:hover {
+        font-weight: bold;
+        color: rgb(106, 64, 40);
+      }
+
+      .product .main .item div.flex {
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="py-4 bg-white fixed w-full">
+      <div class="container mx-auto">
+        <div class="flex justify-between">
+          <div class="flex items-center">
+            <a href="index.html"><img class="inline" src="img/logo/coffee.png" alt="Coffe Shop" /></a><a class="pl-4 font-bold" href="index.html">Coffe Shop</a>
+          </div>
+          <div class="flex items-center">
+            <ul>
+              <li class="inline-block px-5"><a href="" class="active:font-bold">Home</a></li>
+              <li class="inline-block px-5"><a href="">Product</a></li>
+              <li class="inline-block px-5"><a href="">Your Cart</a></li>
+              <li class="inline-block px-5"><a href="">History</a></li>
+            </ul>
+          </div>
+          <div>
+            <a class="mr-10" href="login.html">Login</a><a href="signUp.html"><button class="bg-yellow-500 hover:bg-yellow-300 px-5 py-2 rounded-full font-bold">Sign Up</button></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="product pt-20">
+      <div class="border-t border-gray-300">
+        <div class="container mx-auto">
+          <div class="content flex h-screen divide-x divide-gray-300 divide-solid">
+            <!-- bagian kiri -->
+            <div class="side flex flex-col justify-between py-10">
+              <!-- bagian promo -->
+              <div class="space-y-5">
+                <div class="text-center">
+                  <h3 class="text-2xl font-bold text-yellow-900">Promo for you</h3>
+                </div>
+
+                <div class="text-center">
+                  <p>Coupons will be updated every weeks.</p>
+                  <p>check them out!</p>
+                </div>
+
+                <!-- card -->
+                <div class="flex items-center pl-10">
+                  <div class="card flex flex-col bg-yellow-300 w-72 rounded-3xl">
+                    <div class="main flex flex-col justify-evenly items-center border-dashed border-b border-black text-center">
+                      <div class="w-28 h-28 bg-blue-500 rounded-full"></div>
+                      <div>
+                        <h3 class="text-2xl font-bold">Beef Spaghetti</h3>
+                        <h3 class="text-2xl font-bold">20% OFF</h3>
+                      </div>
+                      <p>Buy 1 Choco Oreo and get 20% off for Beef Spaghetti</p>
+                    </div>
+                    <div class="side flex flex-col justify-evenly text-center">
+                      <p>COUPON CODE</p>
+                      <h3 class="text-3xl font-bold">FSDT56AS</h3>
+                      <p>Valid until October 10th 2020</p>
+                    </div>
+                  </div>
+                  <div class="card-acc-1 w-7 rounded-r-full bg-black"></div>
+                  <div class="h-80 w-7 rounded-r-full bg-yellow-900"></div>
+                </div>
+
+                <button class="w-72 py-4 ml-10 bg-yellow-900 rounded-2xl text-white font-bold">Apply Coupon</button>
+              </div>
+              <!-- bagian ketentuan -->
+              <div>
+                <h5 class="font-bold">Term and Condition</h5>
+                <ol class="list-decimal">
+                  <li>You can apply 1 coupon per day</li>
+                  <li>It only for dine in</li>
+                  <li>Buy 1 get 1 only for new user</li>
+                  <li>Should make member card to apply coupon</li>
+                </ol>
+              </div>
+            </div>
+            <!-- bagian kanan -->
+            <div class="main h-full">
+              <div class="flex flex-col justify-between w-full h-full p-10">
+                <div>
+                  <ul class="flex justify-evenly">
+                    <li class="inline-block"><a class="block" href="#">Favorite Product</a></li>
+                    <li class="inline-block"><a class="block" href="#">Coffee</a></li>
+                    <li class="inline-block"><a class="block" href="#">Non Coffee</a></li>
+                    <li class="inline-block"><a class="block" href="#">Foods</a></li>
+                    <li class="inline-block"><a class="block" href="#">Add-on</a></li>
+                  </ul>
+                </div>
+                <div class="item grid grid-cols-4">
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                  <div class="flex items-end w-36 h-56">
+                    <div class="w-36 h-44 border rounded-2xl text-center bg-white shadow-2xl">
+                      <div class="w-24 h-24 -mt-12 bg-yellow-200 rounded-full mx-auto"></div>
+                      <h4 class="text-xl font-bold">Veggie<br />tomato<br />mix</h4>
+                      <h6 class="font-bold text-yellow-900">IDR. 34.000</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="relative bg-gray-200 py-10">
+      <div class="container mx-auto">
+        <div class="flex">
+          <div class="flex-1 space-y-7">
+            <div class="flex items-center">
+              <img src="img/logo/coffee.png" alt="Coffee Shop" />
+              <h4 class="text-l font-bold ml-3">Coffee Shop</h4>
+            </div>
+            <p class="w-72 leading-8">Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+            <div class="flex space-x-3">
+              <div class="flex justify-center items-center h-8 w-8 bg-yellow-500 rounded-full"><i class="text-yellow-800 fab fa-facebook-f"></i></div>
+              <div class="flex justify-center items-center h-8 w-8 bg-yellow-500 rounded-full"><i class="text-yellow-800 fab fa-twitter"></i></div>
+              <div class="flex justify-center items-center h-8 w-8 bg-yellow-500 rounded-full"><i class="text-yellow-800 fab fa-instagram"></i></div>
+            </div>
+          </div>
+          <div class="flex-1 flex justify-end">
+            <div class="w-2/3">
+              <div class="foot-info grid grid-cols-2">
+                <div class="text-xl font-bold">Product</div>
+                <div class="text-xl font-bold">Engage</div>
+                <div>Download</div>
+                <div>Coffe Shop?</div>
+                <div>Pricing</div>
+                <div>FAQ</div>
+                <div>Location</div>
+                <div>About Us</div>
+                <div>Countries</div>
+                <div>Privacy Policy</div>
+                <div>Blog</div>
+                <div>Term of Service</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+  </body>
+</html>
