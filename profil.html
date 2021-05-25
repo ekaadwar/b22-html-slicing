@@ -18,43 +18,69 @@
 
     <script src="https://kit.fontawesome.com/6c4fda98f4.js" crossorigin="anonymous"></script>
 
-    <title>Forgot Pass</title>
+    <title>Profil</title>
 
     <style>
-      .forgot .email {
-        flex-grow: 3;
+      section.profil {
+        height: 1100px;
+        background-image: url("img/general/kopi.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position-y: -200px;
       }
 
-      .forgot .send {
-        flex-grow: 1;
+      section.profil .data {
+        font-family: "Poppins", sans-serif;
       }
     </style>
   </head>
-
   <body>
-    <section class="forgot text-white text-xl">
+    <nav class="py-4 bg-white fixed w-full">
       <div class="container mx-auto">
-        <div class="py-52 space-y-28 text-center">
-          <div>
-            <h1 class="text-6xl font-bold mb-3">Forgot your password?</h1>
-            <p class="font-bold">Don't worry, we got your back!</p>
+        <div class="flex justify-between">
+          <div class="flex items-center">
+            <a href="index.html"><img class="inline" src="img/logo/coffee.png" alt="Coffe Shop" /></a><a class="pl-4 font-bold" href="index.html">Coffe Shop</a>
+          </div>
+          <div class="flex items-center">
+            <ul>
+              <li class="inline-block px-5"><a href="index.html">Home</a></li>
+              <li class="inline-block px-5"><a href="product.html">Product</a></li>
+              <li class="inline-block px-5"><a href="cart.html">Your Cart</a></li>
+              <li class="inline-block px-5"><a href="">History</a></li>
+            </ul>
+          </div>
+          <div class="flex justify-end items-center space-x-8">
+            <i class="fas fa-search text-2xl"></i>
+            <i class="far fa-comments text-2xl"></i>
+            <a href="profil.html">
+              <div class="h-7 w-7 bg-yellow-500 rounded-full overflow-hidden"><img src="img/profile/gejeel.jpg" alt="" /></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- section profil -->
+    <section class="profil pt-20">
+      <div class="container mx-auto">
+        <h3>User Profil</h3>
+        <div class="data grid grid-cols-3 gap-x-8 gap-y-20">
+          <div class="flex flex-col justify-between items-center py-10 h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl"></div>
+          <div class="col-span-2">
+            <div class="h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl"></div>
+          </div>
+          <div class="col-span-2">
+            <div class="h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl"></div>
           </div>
           <div>
-            <form>
-              <div class="flex">
-                <input class="email py-7 pl-8 rounded-2xl mr-7" type="email" name="email" placeholder="Enter your email address to get link" />
-                <input class="send py-7 rounded-2xl bg-yellow-500 text-yellow-900 font-bold" type="submit" name="submit" value="Send" />
-              </div>
-            </form>
-          </div>
-          <div class="space-y-5">
-            <p class="font-bold text-center w-96 mx-auto">Click here if you didn't receive any link in 2 minutes</p>
-            <button class="w-80 bg-yellow-900 text-white py-7 rounded-2xl">Resend Link</button>
-            <p>01:54</p>
+            <div class="h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl"></div>
           </div>
         </div>
       </div>
     </section>
+    <!-- akhir section profil -->
+
     <!-- footer -->
     <footer class="relative bg-gray-200 py-10">
       <div class="container mx-auto">
