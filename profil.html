@@ -66,9 +66,47 @@
       <div class="container mx-auto">
         <h3>User Profil</h3>
         <div class="data grid grid-cols-3 gap-x-8 gap-y-20">
-          <div class="flex flex-col justify-between items-center py-10 h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl"></div>
+          <div class="flex flex-col justify-between items-center py-10 h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl">
+            <div class="relative">
+              <div class="overflow-hidden h-28 w-28 bg-blue-200 rounded-full">
+                <img src="img/profile/gejeel.jpg" alt="Gajeel Redfox" />
+              </div>
+              <div class="absolute flex justify-center items-center -mt-10 ml-20 h-10 w-10 bg-yellow-900 rounded-full">
+                <i class="fas fa-pencil-alt text-white"></i>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-2xl font-bold text-center">Gajeel Redfox</h4>
+              <p class="text-sm">metaldragonslayer@fairytail.com</p>
+            </div>
+
+            <p>Has been ordered 20 product</p>
+          </div>
           <div class="col-span-2">
-            <div class="h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl"></div>
+            <div class="h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl">
+              <div class="flex flex-col justify-between h-full px-5 pt-5 pb-10">
+                <div class="flex justify-between items-center">
+                  <h3 class="text-3xl font-bold text-gray-600">Contacts</h3>
+                  <div class="flex justify-center items-center h-12 w-12 bg-yellow-900 rounded-full">
+                    <i class="fas fa-pencil-alt text-white"></i>
+                  </div>
+                </div>
+                <div class="grid grid-cols-2 gap-x-10 gap-y-16">
+                  <div>
+                    <p class="text-xl text-gray-400">Email address :</p>
+                    <input class="py-2 w-full border-b border-black" type="email" name="email" value="metaldragonslayer@fairytail.com" />
+                  </div>
+                  <div>
+                    <p class="text-xl text-gray-400">Mobile Number :</p>
+                    <input class="py-2 w-full border-b border-black" type="text" name="phone" value="(+62)82132145421" />
+                  </div>
+                  <div>
+                    <p class="text-xl text-gray-400">Delivery Address:</p>
+                    <textarea class="w-full border-b border-black" name="address" id="address" cols="30" rows="2">Iskandar Street no. 67 Block A Near Bus Stop</textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-span-2">
             <div class="h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl"></div>
