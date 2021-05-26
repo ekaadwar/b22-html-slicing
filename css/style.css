@@ -22,14 +22,16 @@ section.adventages {
 section.auth,
 section.forgot,
 section.cart,
-section.profil {
+section.profil,
+section.history {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 section.forgot,
 section.cart,
-section.profil {
+section.profil,
+section.history {
   background-size: cover;
 }
 
@@ -54,6 +56,10 @@ section.profil {
   height: 1100px;
   background-image: url("../img/general/kopi.png");
   background-position-y: -200px;
+}
+
+section.history {
+  background-image: url("../img/general/history.png");
 }
 
 nav button {
