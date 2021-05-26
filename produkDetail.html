@@ -17,6 +17,10 @@
     <title>productDetail</title>
 
     <style>
+      section.detailProduct .data {
+        font-family: "Poppins", sans-serif;
+      }
+
       section.detailProduct .item {
         flex: 4;
       }
@@ -55,12 +59,19 @@
     <section class="detailProduct pt-20 pb-40 bg-gray-200">
       <div class="container mx-auto">
         <p class="font-bold"><span class="text-gray-500">Favorite & Promo</span> <span class="text-yellow-900">> Cold Brew</span></p>
-        <div class="grid grid-cols-9">
+        <div class="data grid grid-cols-9">
           <div class="col-span-4">
             <div class="pt-24 pr-24">
-              <div class="bg-blue-300">
-                <div class="h-80 w-80 bg-gray-700 rounded-full"></div>
-                <h2>COLD BREW</h2>
+              <div class="flex flex-col items-center space-y-16">
+                <div class="overflow-hidden h-80 w-80 bg-gray-700 rounded-full"><img class="w-full" src="img/produk/coldBrew.png" alt="" /></div>
+                <div class="space-y-7">
+                  <h2 class="text-6xl font-bold">COLD BREW</h2>
+                  <p class="text-3xl text-center">IDR 30.000</p>
+                </div>
+                <div class="space-y-7">
+                  <button class="py-3 w-full bg-yellow-900 hover:bg-yellow-800 rounded-xl text-white text-2xl font-bold">Add to Cart</button>
+                  <button class="py-3 w-full bg-yellow-400 hover:bg-yellow-600 rounded-xl text-yellow-900 text-2xl font-bold">Ask a Staff</button>
+                </div>
               </div>
             </div>
           </div>
