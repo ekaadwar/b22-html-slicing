@@ -19,24 +19,9 @@
     <script src="https://kit.fontawesome.com/6c4fda98f4.js" crossorigin="anonymous"></script>
 
     <title>Profil</title>
-
-    <style>
-      section.profil {
-        height: 1100px;
-        background-image: url("img/general/kopi.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-position-y: -200px;
-      }
-
-      section.profil .data {
-        font-family: "Poppins", sans-serif;
-      }
-    </style>
   </head>
   <body>
-    <nav class="py-4 bg-white fixed w-full">
+    <nav class="z-40 py-4 bg-white fixed w-full">
       <div class="container mx-auto">
         <div class="flex justify-between">
           <div class="flex items-center">
@@ -64,7 +49,7 @@
     <!-- section profil -->
     <section class="profil pt-20">
       <div class="container mx-auto">
-        <h3>User Profil</h3>
+        <h3 class="text-4xl font-bold text-white py-10 text-shadow">User Profil</h3>
         <div class="data grid grid-cols-3 gap-x-8 gap-y-20">
           <div class="flex flex-col justify-between items-center py-10 h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl">
             <div class="relative">
@@ -109,10 +94,63 @@
             </div>
           </div>
           <div class="col-span-2">
-            <div class="h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl"></div>
+            <div class="h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl">
+              <div class="flex flex-col justify-between h-full px-5 pt-5 pb-10">
+                <div class="flex justify-between items-center">
+                  <h3 class="text-3xl font-bold text-gray-600">Details</h3>
+                  <div class="flex justify-center items-center h-12 w-12 bg-yellow-900 rounded-full">
+                    <i class="fas fa-pencil-alt text-white"></i>
+                  </div>
+                </div>
+                <div class="grid grid-cols-3 gap-x-5 gap-y-5">
+                  <div class="col-span-2">
+                    <p class="text-xl text-gray-400">Display Name</p>
+                    <input class="py-2 w-full border-b border-black" type="email" name="email" value="metaldragonslayer@fairytail.com" />
+                  </div>
+                  <div>
+                    <p class="text-xl text-gray-400">DD/MM/YY</p>
+                    <input class="py-2 w-full border-b border-black" type="text" name="phone" value="27/09/96" />
+                  </div>
+                  <div class="col-span-2">
+                    <p class="text-xl text-gray-400">First Name:</p>
+                    <input class="py-2 w-full border-b border-black" type="email" name="email" value="Gajeel" />
+                  </div>
+                  <div class="row-span-2 space-y-5">
+                    <div>
+                      <input type="radio" id="male" name="gender" value="male" />
+                      <label class="text-xl text-yellow-700 hover:text-yellow-900" for="male">Male</label><br />
+                    </div>
+                    <div>
+                      <input type="radio" id="female" name="gender" value="female" />
+                      <label class="text-xl text-yellow-700 hover:text-yellow-900" for="female">Female</label><br />
+                    </div>
+                  </div>
+                  <div class="col-span-2">
+                    <p class="text-xl text-gray-400">Last Name:</p>
+                    <input class="py-2 w-full border-b border-black" type="email" name="email" value="Redfox" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
           <div>
-            <div class="h-96 w-full bg-white border-b-8 border-yellow-900 rounded-2xl"></div>
+            <div class="flex flex-col justify-between h-96 w-full">
+              <h3 class="text-shadow text-xl text-center font-bold text-white">Do you want to save the<br />change?</h3>
+
+              <div class="space-y-5">
+                <button class="bg-yellow-900 py-3 w-full text-white rounded-2xl hover:bg-yellow-800">Save Change</button>
+                <button class="bg-yellow-400 py-3 w-full text-yellow-900 font-bold rounded-2xl hover:bg-yellow-500">Cancel</button>
+              </div>
+              <button class="flex justify-between bg-white px-5 py-3 w-full text-yellow-900 font-bold rounded-2xl hover:bg-gray-300">
+                <p>Edit Password</p>
+                <a href="#">></a>
+              </button>
+              <button class="flex justify-between bg-white px-5 py-3 w-full text-yellow-900 font-bold rounded-2xl hover:bg-gray-300">
+                <p>Log Out</p>
+                <a href="#">></a>
+              </button>
+            </div>
           </div>
         </div>
       </div>

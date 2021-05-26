@@ -6,9 +6,50 @@ html {
   width: 1100px;
 }
 
+.text-shadow {
+  text-shadow: 2px 2px 4px #000000;
+}
+
 section.jumbotron,
 section.adventages {
   height: 650px;
+}
+
+section.auth,
+section.forgot,
+section.cart,
+section.profil {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section.forgot,
+section.cart,
+section.profil {
+  background-size: cover;
+}
+
+section.auth {
+  height: 1100px;
+  background-image: url("../img/general/login.png");
+  background-size: 50%;
+}
+
+section.forgot {
+  height: 1100px;
+  background-image: url("../img/general/forgot.png");
+  font-family: "Poppins", sans-serif;
+}
+
+section.cart {
+  height: 800px;
+  background-image: url("../img/general/cart.png");
+}
+
+section.profil {
+  height: 1100px;
+  background-image: url("../img/general/kopi.png");
+  background-position-y: -200px;
 }
 
 nav button {
@@ -120,24 +161,6 @@ p.sub-judul {
   padding-bottom: 10px;
 }
 
-/* login page */
-section.auth {
-  height: 1100px;
-  background-image: url("../img/general/login.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 50%;
-}
-
-section.forgot {
-  height: 1100px;
-  background-image: url("../img/general/forgot.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  font-family: "Poppins", sans-serif;
-}
-
 .product .container {
   width: 1400px;
 }
@@ -179,14 +202,6 @@ section.forgot {
   margin-top: 30px;
 }
 
-section.cart {
-  height: 800px;
-  background-image: url("../img/general/cart.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 section.cart .grid .item {
   margin-bottom: 5px;
 }
@@ -195,6 +210,14 @@ section.cart .cart-body {
   height: 500px;
 }
 
-.text-shadow {
-  text-shadow: 2px 2px 4px #000000;
+section.profil .data {
+  font-family: "Poppins", sans-serif;
+}
+
+.forgot .email {
+  flex-grow: 3;
+}
+
+.forgot .send {
+  flex-grow: 1;
 }
