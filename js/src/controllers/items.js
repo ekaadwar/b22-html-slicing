@@ -1,6 +1,5 @@
-const modelItems = require("../models/items")
+const modelItems = require("../models/items");
 
-
-exports.getItems = (req, res) => {
-    modelItems.
-};
+// exports.getItems = (req, res) => {
+//     // modelItems.
+// };
